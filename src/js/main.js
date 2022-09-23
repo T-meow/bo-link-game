@@ -79,6 +79,9 @@ LinkGame.prototype = {
     this.preClickInfo = null; // 上一次被点中的图片信息
     this.leftTime = 340; // 剩余时间
     this.points = []; // 图片可以相消时的拐点集合
+    
+    this.leftDisorderTime = 5; // 剩余重排次数
+    
     this.timmer = setInterval(function () {
       self.updateCountDown();
     }, 1000);
