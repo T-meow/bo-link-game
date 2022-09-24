@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "啵啵连连看",
+    "productName": "bobo-link",
     "version": "1.0.0"
   },
   "tauri": {
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.bobo-tang.bundle",
+      "identifier": "com.bobo.game",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
