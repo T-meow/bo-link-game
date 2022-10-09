@@ -71,7 +71,7 @@ LinkGame.prototype = {
   init: function (isReset) {
     var self = this;
     this.stack = [];
-    this.iconTypeCount = this.level + 11; // 图片的种类
+    this.iconTypeCount = this.level + 11 > 15 ? 15 : this.level + 11; // 图片的种类
     this.count = (this.rows - 2) * (this.cols - 2); // 图片的总数
     this.remain = this.count; // 剩余的未有消去的图片
     this.pictures = []; // 图片集合
